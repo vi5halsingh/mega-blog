@@ -5,7 +5,8 @@ import appWrite from './config/config';
 import { Databases } from 'appwrite';
 import { useDispatch } from 'react-redux';
 import authServices from './appwrite/auth';
-import { Footer, Header } from './components/Header/Header';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import { Outlet } from 'react-router-dom';
 
 function App() {
